@@ -1,0 +1,11 @@
+using System;
+
+namespace ContactsDataAccessLayer
+{
+    static class clsDataAccessSettings
+    {
+        static public string ConnectionString = "server=.;Database=ContactsDB;User id=sa;password=sa123456";
+       
+
+    }
+}

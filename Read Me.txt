@@ -1,0 +1,22 @@
+This is a simple project about connnecting a database to consoleApp
+
+
+you need to restore database 'ContactsDB' before you test :)
+
+Three-Tier Architecture:
+=>Presentation Layer (UI):
+
+*Responsible for user interaction.
+*Displays data to the user and collects input.
+*In our case, it will be the console application.
+
+=>Business Logic Layer (BLL):
+
+*Contains business rules and logic.
+*Validates input, processes data, and communicates with the data access layer.
+
+=>Data Access Layer (DAL):
+
+*Handles database operations (CRUD: Create, Read, Update, Delete).
+*Connects to the database and executes queries.
+
